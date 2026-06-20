@@ -60,7 +60,7 @@ erDiagram
         int student_id PK
         string fname
         string lname
-        string ic_number UNIQUE
+        string ic_number "UNIQUE"
         string phone
         string email
         string faculty
@@ -68,13 +68,13 @@ erDiagram
     }
     ROOM_TYPES {
         int type_id PK "AUTO_INCREMENT"
-        string type UNIQUE
+        string type "UNIQUE"
         decimal price "CHECK > 0"
         int capacity "CHECK >= 1"
     }
     ROOM_LOCATIONS {
         int location_id PK "AUTO_INCREMENT"
-        string college UNIQUE
+        string college "UNIQUE"
         string gender_type
     }
     ROOMS {
