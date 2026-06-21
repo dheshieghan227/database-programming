@@ -206,3 +206,8 @@ To optimize data access paths as the database scales, we set up performance prof
 ## 🎓 Conclusion
 
 This project successfully builds a complete relational model for hostel room reservations. By planning normalization layers and establishing strict checks, we prevented data anomalies. Additionally, through performance profiling using index tuning, the system demonstrated scalable query latencies suitable for production workloads.
+
+---
+
+## 💭 Course Reflection
+Writing PL/SQL, database triggers, and stored procedures in this repository showed me how to move logic closer to the data itself. This is crucial for optimizing data integrity and performance before data even reaches ingestion tools.
